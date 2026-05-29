@@ -57,7 +57,7 @@ export function Sidebar() {
       {/* Logo */}
       <div className="p-6 border-b border-sidebar-border">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-lg bg-sidebar-primary text-sidebar-primary-foreground flex items-center justify-center group-hover:shadow-lg transition-all overflow-hidden">
+          <div className="w-10 h-10 rounded-lg flex items-center justify-center group-hover:shadow-lg transition-all overflow-hidden">
             <img src="/sigizi-logo.png" alt="SIGIZI Logo" className="w-10 h-10 object-contain" />
           </div>
           <div>
