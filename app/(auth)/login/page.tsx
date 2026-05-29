@@ -36,7 +36,7 @@ export default function LoginPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m0 0h6" />
             </svg>
           </div>
-          <h1 className="text-3xl font-bold text-foreground mb-2">Posyandu Dashboard</h1>
+          <h1 className="text-3xl font-bold text-foreground mb-2">SIGIZI Dashboard</h1>
           <p className="text-muted-foreground">Monitor kesehatan balita dengan teknologi modern</p>
         </div>
 
@@ -49,7 +49,7 @@ export default function LoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="nama@posyandu.id"
+                placeholder="nama@sigizi.id"
                 disabled={isLoading}
                 className="w-full"
               />
@@ -80,12 +80,12 @@ export default function LoginPage() {
             <div className="space-y-2 text-xs bg-muted/50 p-3 rounded-lg">
               <div>
                 <p className="font-medium text-foreground">Admin:</p>
-                <p className="text-muted-foreground">Email: admin@posyandu.id</p>
+                <p className="text-muted-foreground">Email: admin@sigizi.id</p>
                 <p className="text-muted-foreground">Password: admin123</p>
               </div>
               <div className="border-t border-border pt-2 mt-2">
                 <p className="font-medium text-foreground">Kader:</p>
-                <p className="text-muted-foreground">Email: kader@posyandu.id</p>
+                <p className="text-muted-foreground">Email: kader@sigizi.id</p>
                 <p className="text-muted-foreground">Password: kader123</p>
               </div>
             </div>

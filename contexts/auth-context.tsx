@@ -22,21 +22,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       // Mock login - in production, this would call your auth API
       await new Promise((resolve) => setTimeout(resolve, 500));
 
-      if (email === 'admin@posyandu.id' && password === 'admin123') {
+      if (email === 'admin@sigizi.id' && password === 'admin123') {
         setUser({
           id: 'admin1',
           name: 'Dr. Siti Nurhaliza',
           email,
           role: 'admin',
-          posyanduLocation: 'Posyandu Ceria, Jakarta Pusat',
+          siziLocation: 'SIGIZI Ceria, Jakarta Pusat',
         });
-      } else if (email === 'kader@posyandu.id' && password === 'kader123') {
+      } else if (email === 'kader@sigizi.id' && password === 'kader123') {
         setUser({
           id: 'kader1',
           name: 'Ibu Sinta',
           email,
           role: 'kader',
-          posyanduLocation: 'Posyandu Ceria, Jakarta Pusat',
+          siziLocation: 'SIGIZI Ceria, Jakarta Pusat',
         });
       } else {
         throw new Error('Invalid credentials');

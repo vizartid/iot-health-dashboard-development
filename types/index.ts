@@ -6,7 +6,7 @@ export interface User {
   name: string;
   email: string;
   role: UserRole;
-  posyanduLocation?: string;
+  siziLocation?: string;
   avatar?: string;
 }
 
@@ -16,7 +16,7 @@ export interface Child {
   name: string;
   dateOfBirth: string;
   gender: 'male' | 'female';
-  posyanduId: string;
+  siziId: string;
   photo?: string;
   createdAt: string;
 }

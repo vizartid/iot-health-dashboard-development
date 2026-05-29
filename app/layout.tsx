@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Posyandu Dashboard - Health Monitoring',
-  description: 'Modern health monitoring dashboard for posyandu child health centers',
+  title: 'SIGIZI Dashboard - Health Monitoring',
+  description: 'Modern health monitoring dashboard for SIGIZI child health centers',
   generator: 'v0.app',
   icons: {
     icon: [

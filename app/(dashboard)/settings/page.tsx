@@ -72,16 +72,16 @@ export default function SettingsPage() {
               <label className="block text-sm font-medium text-foreground mb-2">Role</label>
               <Input
                 disabled
-                value={user?.role === 'admin' ? 'Administrator' : 'Kader Posyandu'}
+                value={user?.role === 'admin' ? 'Administrator' : 'Kader SIGIZI'}
                 className="bg-muted"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-foreground mb-2">Posyandu Location</label>
+              <label className="block text-sm font-medium text-foreground mb-2">SIGIZI Location</label>
               <Input
                 disabled
-                value={user?.posyanduLocation || 'Not set'}
+                value={user?.siziLocation || 'Not set'}
                 className="bg-muted"
               />
             </div>
